@@ -1,3 +1,4 @@
+//Encapsulation
 function getArea(height, width) {
     return height * width;
 }
@@ -11,3 +12,7 @@ let shape = {
 };
 
 console.log("Area of the Shape: ", shape.getArea());
+
+
+
+//Abstraction

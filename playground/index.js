@@ -7,6 +7,27 @@ console.log(person.name);
 
 
 
+
+
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors.length);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Encapsulation
 function getArea(height, width) {
     return height * width;

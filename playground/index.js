@@ -1,31 +1,21 @@
-let person = {
-    name: "John",
-    age: 30,
+// let person = {
+//     name: "John",
+//     age: 30,
+// }
+// console.log(person.name);
+
+// let selectedColors = ['red', 'blue'];
+// selectedColors[2] = 'green';
+// console.log(selectedColors.length);
+
+
+
+function greet(name, lastName) {
+    console.log('Hello, world! ' + name + '' + lastName);
 }
-console.log(person.name);
 
-
-
-
-
-
-
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 'green';
-console.log(selectedColors.length);
-
-
-
-
-
-
-
-
-
-
-
-
-
+greet('Ian', 'Cañete');
+greet('Christine', "Cañete");
 
 
 //Encapsulation

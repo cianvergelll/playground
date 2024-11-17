@@ -1,8 +1,8 @@
-let name = "Ian";
-let age = 30;
-let isApproved = true;
-let firstName = undefined;
-let selectedColor = null;
+let person = {
+    name: "John",
+    age: 30,
+}
+console.log(person.name);
 
 
 

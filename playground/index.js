@@ -14,8 +14,18 @@ function greet(name, lastName) {
     console.log('Hello, world! ' + name + '' + lastName);
 }
 
+
 greet('Ian', 'Cañete');
 greet('Christine', "Cañete");
+
+
+
+function square(number) {
+    return number * number;
+}
+
+console.log(square(2));
+
 
 
 //Encapsulation
